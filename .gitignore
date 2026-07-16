@@ -1,0 +1,24 @@
+# ==========================================
+# Corporate Visitor Management System Gitignore
+# ==========================================
+
+# .NET Build outputs & caches
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.db
+**/*.db-wal
+**/*.db-shm
+**/*.db-journal
+
+# Angular builds & dependencies
+**/node_modules/
+**/.angular/
+**/dist/
+**/.vscode/
+
+# System / OS files
+.DS_Store
+Thumbs.db
